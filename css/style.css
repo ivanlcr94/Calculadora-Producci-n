@@ -3,6 +3,12 @@ body{
     background-color: rgb(252, 252, 252);
 }
 
+header{
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+
 .navContainer {
     background-color: black;
     color: white;
@@ -26,7 +32,9 @@ body{
     font-size: 1.2rem;
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 100%;
+    margin: 5px;
 }
 
 main {

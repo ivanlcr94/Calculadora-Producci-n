@@ -26,7 +26,7 @@ function calcular (e) {
 
     contenedorResultado.innerHTML = "";
     let div = document.createElement("div");
-        div.classList.add('cuadroResultado',);
+        div.classList.add('cuadroResultado', 'shadow');
 
         div.innerHTML = `<h2>Resultado</h2>
         <p>${horasDeProduccion.toFixed(1)} Horas de producción</p>
